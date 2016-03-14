@@ -14,6 +14,7 @@
 		623DF9C31C9706D300482ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623DF9C11C9706D300482ABA /* LaunchScreen.storyboard */; };
 		623DF9CE1C9706D300482ABA /* The_Trivia_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623DF9CD1C9706D300482ABA /* The_Trivia_GameTests.swift */; };
 		623DF9D91C9706D300482ABA /* The_Trivia_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623DF9D81C9706D300482ABA /* The_Trivia_GameUITests.swift */; };
+		62E512161C970AE5006E12C4 /* 3Dumb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62E512151C970AE5006E12C4 /* 3Dumb.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		623DF9D41C9706D300482ABA /* The Trivia GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Trivia GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623DF9D81C9706D300482ABA /* The_Trivia_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Trivia_GameUITests.swift; sourceTree = "<group>"; };
 		623DF9DA1C9706D300482ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E512151C970AE5006E12C4 /* 3Dumb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3Dumb.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				623DF9CC1C9706D300482ABA /* The Trivia GameTests */,
 				623DF9D71C9706D300482ABA /* The Trivia GameUITests */,
 				623DF9B61C9706D300482ABA /* Products */,
+				62E512111C9709A5006E12C4 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +100,9 @@
 		623DF9B71C9706D300482ABA /* The Trivia Game */ = {
 			isa = PBXGroup;
 			children = (
+				623DF9BC1C9706D300482ABA /* Main.storyboard */,
 				623DF9B81C9706D300482ABA /* AppDelegate.swift */,
 				623DF9BA1C9706D300482ABA /* ViewController.swift */,
-				623DF9BC1C9706D300482ABA /* Main.storyboard */,
 				623DF9BF1C9706D300482ABA /* Assets.xcassets */,
 				623DF9C11C9706D300482ABA /* LaunchScreen.storyboard */,
 				623DF9C41C9706D300482ABA /* Info.plist */,
@@ -123,6 +126,22 @@
 				623DF9DA1C9706D300482ABA /* Info.plist */,
 			);
 			path = "The Trivia GameUITests";
+			sourceTree = "<group>";
+		};
+		62E512111C9709A5006E12C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62E512121C9709B7006E12C4 /* fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		62E512121C9709B7006E12C4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				62E512151C970AE5006E12C4 /* 3Dumb.ttf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E512161C970AE5006E12C4 /* 3Dumb.ttf in Resources */,
 				623DF9C31C9706D300482ABA /* LaunchScreen.storyboard in Resources */,
 				623DF9C01C9706D300482ABA /* Assets.xcassets in Resources */,
 				623DF9BE1C9706D300482ABA /* Main.storyboard in Resources */,
@@ -482,6 +502,7 @@
 				623DF9DF1C9706D300482ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		623DF9E01C9706D300482ABA /* Build configuration list for PBXNativeTarget "The Trivia GameTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				623DF9E21C9706D300482ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		623DF9E31C9706D300482ABA /* Build configuration list for PBXNativeTarget "The Trivia GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				623DF9E51C9706D300482ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

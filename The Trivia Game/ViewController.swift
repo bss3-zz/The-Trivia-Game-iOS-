@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var start_btn: UIButton!
+    @IBOutlet weak var title_lb: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        title_lb?.font = UIFont(name: "3dumb", size: 16)
     }
 
     override func didReceiveMemoryWarning() {
