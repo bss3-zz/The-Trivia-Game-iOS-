@@ -14,7 +14,16 @@
 		623DF9C31C9706D300482ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 623DF9C11C9706D300482ABA /* LaunchScreen.storyboard */; };
 		623DF9CE1C9706D300482ABA /* The_Trivia_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623DF9CD1C9706D300482ABA /* The_Trivia_GameTests.swift */; };
 		623DF9D91C9706D300482ABA /* The_Trivia_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623DF9D81C9706D300482ABA /* The_Trivia_GameUITests.swift */; };
-		62E512161C970AE5006E12C4 /* 3Dumb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62E512151C970AE5006E12C4 /* 3Dumb.ttf */; };
+		625660B91C982FCF003716E3 /* STJEDISE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 625660B81C982FCF003716E3 /* STJEDISE.TTF */; };
+		625660BB1C982FE7003716E3 /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 625660BA1C982FE7003716E3 /* Starjout.ttf */; };
+		625660BE1C9830C4003716E3 /* 2Dumb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 625660BC1C9830C4003716E3 /* 2Dumb.ttf */; };
+		625660BF1C9830C4003716E3 /* 3Dumb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 625660BD1C9830C4003716E3 /* 3Dumb.ttf */; };
+		625660C01C98317D003716E3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 623DF9C41C9706D300482ABA /* Info.plist */; };
+		625660C71C983DAE003716E3 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625660C61C983DAE003716E3 /* background.jpg */; };
+		625660CC1C9845CB003716E3 /* polvo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625660C81C9845CB003716E3 /* polvo.jpg */; };
+		625660CD1C9845CB003716E3 /* gato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625660C91C9845CB003716E3 /* gato.jpg */; };
+		625660CE1C9845CB003716E3 /* porco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625660CA1C9845CB003716E3 /* porco.jpg */; };
+		625660CF1C9845CB003716E3 /* peixe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625660CB1C9845CB003716E3 /* peixe.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +57,15 @@
 		623DF9D41C9706D300482ABA /* The Trivia GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Trivia GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623DF9D81C9706D300482ABA /* The_Trivia_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Trivia_GameUITests.swift; sourceTree = "<group>"; };
 		623DF9DA1C9706D300482ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62E512151C970AE5006E12C4 /* 3Dumb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3Dumb.ttf; sourceTree = "<group>"; };
+		625660B81C982FCF003716E3 /* STJEDISE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = STJEDISE.TTF; sourceTree = "<group>"; };
+		625660BA1C982FE7003716E3 /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		625660BC1C9830C4003716E3 /* 2Dumb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2Dumb.ttf; sourceTree = "<group>"; };
+		625660BD1C9830C4003716E3 /* 3Dumb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3Dumb.ttf; sourceTree = "<group>"; };
+		625660C61C983DAE003716E3 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		625660C81C9845CB003716E3 /* polvo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polvo.jpg; sourceTree = "<group>"; };
+		625660C91C9845CB003716E3 /* gato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gato.jpg; sourceTree = "<group>"; };
+		625660CA1C9845CB003716E3 /* porco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = porco.jpg; sourceTree = "<group>"; };
+		625660CB1C9845CB003716E3 /* peixe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peixe.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +145,22 @@
 			path = "The Trivia GameUITests";
 			sourceTree = "<group>";
 		};
+		625660C31C983963003716E3 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				625660C61C983DAE003716E3 /* background.jpg */,
+				625660C81C9845CB003716E3 /* polvo.jpg */,
+				625660C91C9845CB003716E3 /* gato.jpg */,
+				625660CA1C9845CB003716E3 /* porco.jpg */,
+				625660CB1C9845CB003716E3 /* peixe.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		62E512111C9709A5006E12C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				625660C31C983963003716E3 /* img */,
 				62E512121C9709B7006E12C4 /* fonts */,
 			);
 			name = Resources;
@@ -139,7 +169,10 @@
 		62E512121C9709B7006E12C4 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				62E512151C970AE5006E12C4 /* 3Dumb.ttf */,
+				625660B81C982FCF003716E3 /* STJEDISE.TTF */,
+				625660BA1C982FE7003716E3 /* Starjout.ttf */,
+				625660BC1C9830C4003716E3 /* 2Dumb.ttf */,
+				625660BD1C9830C4003716E3 /* 3Dumb.ttf */,
 			);
 			name = fonts;
 			sourceTree = "<group>";
@@ -248,10 +281,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E512161C970AE5006E12C4 /* 3Dumb.ttf in Resources */,
+				625660C71C983DAE003716E3 /* background.jpg in Resources */,
+				625660CF1C9845CB003716E3 /* peixe.jpg in Resources */,
+				625660CD1C9845CB003716E3 /* gato.jpg in Resources */,
+				625660C01C98317D003716E3 /* Info.plist in Resources */,
+				625660CC1C9845CB003716E3 /* polvo.jpg in Resources */,
+				625660BF1C9830C4003716E3 /* 3Dumb.ttf in Resources */,
 				623DF9C31C9706D300482ABA /* LaunchScreen.storyboard in Resources */,
+				625660BE1C9830C4003716E3 /* 2Dumb.ttf in Resources */,
 				623DF9C01C9706D300482ABA /* Assets.xcassets in Resources */,
 				623DF9BE1C9706D300482ABA /* Main.storyboard in Resources */,
+				625660BB1C982FE7003716E3 /* Starjout.ttf in Resources */,
+				625660B91C982FCF003716E3 /* STJEDISE.TTF in Resources */,
+				625660CE1C9845CB003716E3 /* porco.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
